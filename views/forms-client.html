@@ -6,10 +6,37 @@
 	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 	  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="forms-client.css">
+	  <link rel="stylesheet" type="text/css" href="../assets/css/forms-client.css">
+	  <link rel="stylesheet" type="text/css" href="../assets/css/detalles.css">
+	  <link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet">
 	  <title>Registro Empresa</title>
 	</head>
 	<body>
+	
+            <!-- INICIA NAV -->
+        <div class="navbar-fixed">    
+            <nav class="container-fluid">
+                <div class="row nav-wrapper negro-fondo pddng-top-nav">
+                    <a href="#" class="col s1 m1 l1 brand-logo">
+                        <img src="../assets/img/cow_logo.gif" alt="cow logo" class="logo-nav">
+                    </a>
+                    <div class="col s8 m8 l4 offset-m3 offset-l7">
+                        <ul>
+                            <a href="#">
+                                <li class="margin-right-li">LISTA DE EMPRESAS</li>
+                            </a>
+                                <li class="margin-right-li">.</li>
+                            <a href="#">
+                                <li>AGREGAR CLIENTES</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- FINALIZA NAV -->
+	
+	
 		<div class="container-fluid">
 		    <div class="row">
 		    	<div class="col m2">
@@ -19,9 +46,11 @@
 		</div>
 		<div class="container-fluid">
 			<div class="container">
+			    <div class="row center-align">
+			        <h3>DATOS DE LA <span class="span-rojos-titulos">EMPRESA</span></h3>
+			    </div>
 				<div class="row">
 				    <form class="col m6 s6">
-				      <h3>Datos Empresa</h3>
 				      <div class="row">
 				        <div class="input-field col m12 s12">
 				          <input id="name" type="text" class="validate">
@@ -63,13 +92,15 @@
 			            <div class="col m6 s6 img-form">
 			              <output id="list-logo" class="thumb"><img class="thumb" src="http://via.placeholder.com/350x350" alt=""></output>
 			              <br /> 
-			              <input type="file" id="files-logo" name="files[]" />
+			              <input type="file" id="files-logo" name="files[]" class="fileUpload"/>
 			            </div>
 					</div>	
 				</div>
+				<div class="row center-align">
+			        <h3>CONTACTO <span class="span-rojos-titulos">PRINCIPAL</span></h3>
+			    </div>
 				<div class="row">
-					<form class="col m6 s6">
-					  <h3>Contacto Principal</h3>
+					<form class="col m6 s6 pdn-sctn-empresa">
 				      <div class="row">
 				        <div class="input-field col m12 s12">
 				          <input id="name_contact" type="text" class="validate">
@@ -96,7 +127,7 @@
 				      </div>
 			    	</form>
 			    	<div class="valign-wrapper">
-			            <div class="col m6 s6 img-form">
+			            <div class="col m6 s6 img-form marging-sctn-empresa">
 			              <output id="list-contact" class="thumb"><img class="thumb" src="http://via.placeholder.com/350x350" alt=""></output>
 			              <br /> 
 			              <input type="file" id="files-contact" name="files[]" />
@@ -112,6 +143,6 @@
 	  
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-	  <script type="text/javascript" src="assets/js/index.js"></script>
+	  <script type="text/javascript" src="../assets/js/index.js"></script>
 	</body>
 </html>

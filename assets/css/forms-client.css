@@ -1,0 +1,76 @@
+body{
+	background-color: #000;
+	color: #fff;
+}
+img{
+	width: 100%;
+}
+.img-form{
+	margin-top: 10em;
+}
+
+.logo{
+	margin: 7%;
+	width: 60%;
+}
+.thumb {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+
+/* INICIO - SPAN GENERALES */
+.span-rojos-titulos{
+    background-color: #FF0000;
+    height: 50px;
+    padding-top: 1%;
+}
+
+h3, .span-rojos-titulos{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+/* FIN  - SPAN GENERALES */
+
+/* INICIO BOTÓN */
+.btn, .btn-large {
+    background-color: black;
+    border: solid 1px red;
+    border-radius: 5%;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.btn:hover {
+    background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    color: black;
+}
+/* FIN BOTÓN */
+
+
+/* INICIO INPUTS */
+
+div.row{
+    margin: 0;
+    padding: 0;
+}
+
+input#files-logo, input#files-contact{
+    background-color: black;
+    border-radius: 5%;
+    color: red;
+}
+/* FIN INPUTS */
+
+/* PADDING- seccion*/
+
+.pdn-sctn-empresa{
+    margin-top: 4%;
+}
+.marging-sctn-empresa{
+    margin-top: 18%;
+}
