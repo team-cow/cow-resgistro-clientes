@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    font-family: "Roboto Mono", monospace;
+    color: white;
+}
+
+/* INICIO Nav - detalles */
+/* desktop */
+.logo-nav{
+    width: 120%;
+}
+
+.negro-fondo{
+    background-color: black;
+}
+
+.pddng-top-nav{
+    padding-top: 2%;
+    padding-left: 1%;
+}
+/* FIN Nav - detalles */
+
+
+
+/* INICIO CONTENIDO - detalles */
+.img-empresas{
+    width: 50%;
+}
+
+.span-a-color{
+    color: #FF0000;
+}
+
+.margin-right-li{
+    margin-right: 8%;
+}
+
+.img-user-team{
+    width: 100%;
+}
+
+.pddng-top-sections{
+    padding-top: 4%;
+}
+/* FIN CONTENIDO - detalles */
