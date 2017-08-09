@@ -6,9 +6,17 @@
 	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 	  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="forms-client.css">
 	  <title>Registro Empresa</title>
 	</head>
 	<body>
+		<div class="container-fluid">
+		    <div class="row">
+		    	<div class="col m2">
+		    		<a href="index.html"><img class="logo" src="assets/img/cow_logo.gif"></a>
+		    	</div>
+		    </div>
+		</div>
 		<div class="container-fluid">
 			<div class="container">
 				<div class="row">
@@ -52,8 +60,10 @@
 				      </div>
 			    	</form>
 			    	<div class="valign-wrapper">
-			            <div class="col m6 s6">
-			              <img src="http://via.placeholder.com/350x350" alt="" class="circle responsive-img"> 
+			            <div class="col m6 s6 img-form">
+			              <output id="list-logo" class="thumb"><img class="thumb" src="http://via.placeholder.com/350x350" alt=""></output>
+			              <br /> 
+			              <input type="file" id="files-logo" name="files[]" />
 			            </div>
 					</div>	
 				</div>
@@ -86,10 +96,12 @@
 				      </div>
 			    	</form>
 			    	<div class="valign-wrapper">
-			            <div class="col m6 s6">
-			              <img src="http://via.placeholder.com/350x350" alt="" class="circle responsive-img"> 
+			            <div class="col m6 s6 img-form">
+			              <output id="list-contact" class="thumb"><img class="thumb" src="http://via.placeholder.com/350x350" alt=""></output>
+			              <br /> 
+			              <input type="file" id="files-contact" name="files[]" />
 			            </div>
-					</div>
+					</div>	
 				</div>
 				<div class="row center">
 					<a class="waves-effect waves-light btn">Crear Cliente</a>
@@ -100,5 +112,6 @@
 	  
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+	  <script type="text/javascript" src="assets/js/index.js"></script>
 	</body>
 </html>
