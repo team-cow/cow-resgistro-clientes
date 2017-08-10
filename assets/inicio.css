@@ -1,0 +1,109 @@
+
+body{
+  background-color: rgb(0, 0, 0);
+  background-image: url(img/comunidad_bg.png);
+}
+
+.texto-blanco{
+  color: #FFF;
+}
+
+/*NAVEGADOR */
+
+.texto-grande{
+  margin-top: 13%;
+  font-family: 'Roboto Mono', monospace;
+  color: #FFFFFF;
+}
+
+.texto-chico{
+  font-family: 'Roboto Mono', monospace;
+  color: #000000;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.fondo-rojo{
+  background-color: #FF0000;
+}
+
+.nav-wrapper{
+  background-color: rgb(0, 0, 0);
+}
+
+.imagen-cow{
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 18%;
+  height: 18%;
+}
+
+.icono-buscar{
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+/*SECCION CLIENTES*/
+
+.fondo-blanco{
+  background-color: rgb(255, 255, 255);
+  margin-left: 10%;
+  width: 60%;
+}
+
+.texto-piso{
+  margin-left: 20%;
+}
+
+.imagen-cliente{
+  width: 20%;
+  height: 20%;
+}
+
+.gus, .quinientos{
+  width: 20%;
+  height: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.alameda, .logo2, .dada, .mercadoni, .bridge, .softlayer{
+  width: 50%;
+  height: 50%;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+#btn-rojo{
+  background-color: #FF0000;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#btn-cliente{
+  background-color: #FF0000;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 3%;
+  padding-bottom: 5%;
+  margin-right: 3%;
+}
+
+.nuestros{
+  margin-left: 9%;
+}
+
+.clientes{
+  margin-left: 12%;
+  margin-bottom: 10%;
+}
+/*font-family: "Roboto Mono", monospace;
+   font-family: 'Work Sans', sans-serif;
+
+
+
+[12:18]
+Paleta de colores:
+Rojo #FF0000
+Negro #000000
+Blanco #FFFFFF */
